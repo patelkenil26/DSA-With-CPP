@@ -11,7 +11,7 @@ void invertedHollowPyramid(int n)
         }
         for (int j = 0; j < n - i; j++)
         {
-            if (i == 0 || j == 0 || i == n - 1 || j == n - i - 1)
+            if (i == 0 || j == 0 || i == n - 1 || j + i == n - 1)
             {
 
                 cout << "* ";
