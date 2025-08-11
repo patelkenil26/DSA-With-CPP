@@ -9,11 +9,11 @@ void numericHolloInvertedwHalf(int n)
         {
             if (j == i + 1 || j == n || i == 0)
             {
-                cout << j;
+                cout << j << " ";
             }
             else
             {
-                cout << " ";
+                cout << "  ";
             }
         }
         cout << endl;
