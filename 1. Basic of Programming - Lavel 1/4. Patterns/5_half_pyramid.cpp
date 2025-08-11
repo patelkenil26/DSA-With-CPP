@@ -7,8 +7,8 @@ int main()
     cout << "Enter row " << endl;
     cin >> row;
 
-    cout << "enter column " << endl;
-    cin >> column;
+    // cout << "enter column " << endl;
+    // cin >> column;
 
     cout << endl;
 
@@ -31,25 +31,41 @@ int main()
     // }
 
     // method 2 :
+    /*
 
-    for (int i = 0; i < row; i++)
+    *
+    *  *
+    *  *  *
+    *  *  *  *
+    *  *  *  *  *
+
+    */
+
+    // for (int i = 0; i < row; i++)
+    // {
+    //     for (int j = 0; j <= i; j++)
+    //     {
+    //         cout << " * ";
+    //     }
+    //     cout << endl;
+    // }
+
+    /*
+        11
+        21 22
+        31 32 33
+        41 42 43 44
+        51 52 53 54 55
+    */
+    for (int i = 1; i <= row; i++)
     {
-        for (int j = 0; j < i + 1; j++)
+        for (int j = 1; j <= i; j++)
         {
-            cout << " * ";
+            cout << i << j << " ";
         }
         cout << endl;
     }
 
+    
     return 0;
 }
-
-/*
-
-*           11
-* *         21 22
-* * *       31 32 33
-* * * *     41 42 43 44
-* * * * *   51 52 53 54 55
-
-*/

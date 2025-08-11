@@ -13,7 +13,8 @@ int main()
         {
             if (i == 0 || j == 0 || i + j == row)
             { // print diagonal
-                cout << "* ";
+                // cout << "* ";
+                cout << i << j << " ";
             }
             else
             {
