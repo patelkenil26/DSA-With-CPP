@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "initializer_list": "cpp",
+        "xutility": "cpp",
+        "algorithm": "cpp",
+        "iostream": "cpp",
+        "list": "cpp",
+        "xhash": "cpp"
+    }
+}
